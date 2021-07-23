@@ -6,6 +6,8 @@
 - https://ieeexplore.ieee.org/abstract/document/9232863
 - https://link.springer.com/chapter/10.1007%2F978-3-030-59194-6_17
 - https://ieeexplore.ieee.org/document/9096752
+- https://vasanza.blogspot.com/2021/07/maximum-number-finder-and-repetition.html
+- https://vasanza.blogspot.com/2021/06/sistemas-digitales-2-proyectos.html
 
 # IDE
 - Quartus Prime 17.0.0 Build 595 04/25/2017 SJ Standard Edition
