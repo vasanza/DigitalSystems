@@ -1,3 +1,5 @@
+![FPGA](https://user-images.githubusercontent.com/12642226/126781642-cdb864f0-f16d-4d6c-a406-6fb1c45d97f5.png)
+
 # VHDL Codes for Digital Systems 2
 # Related work
 - https://vasanza.blogspot.com/
