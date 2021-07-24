@@ -1,3 +1,5 @@
+![BuscadorMaxRep](https://user-images.githubusercontent.com/12642226/126872443-6eaf95e7-187b-42a0-a3b9-d6c947c82d3c.PNG)
+
 # VHDL Codes for Digital Systems 2
 # Related work
 - https://vasanza.blogspot.com/
