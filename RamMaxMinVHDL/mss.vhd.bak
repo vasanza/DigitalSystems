@@ -1,0 +1,12 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+Entity mss is
+	Port(	KeyIn,FinCnt,Cmax,Cmin,Start,Resetn,Clk: in std_logic;
+			eCnt,ResetnCnt,modo,eMax,eMin,m,eDeco: out std_logic);
+end mss;
+
+Architecture sol of mss is
+Begin
+
+end sol;

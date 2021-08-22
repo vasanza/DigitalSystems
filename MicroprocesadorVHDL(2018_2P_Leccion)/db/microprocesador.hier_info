@@ -1,0 +1,17 @@
+|RAM
+Add[0] => ~NO_FANOUT~
+Add[1] => ~NO_FANOUT~
+Add[2] => ~NO_FANOUT~
+Add[3] => ~NO_FANOUT~
+Din[0] => ~NO_FANOUT~
+Din[1] => ~NO_FANOUT~
+Din[2] => ~NO_FANOUT~
+Din[3] => ~NO_FANOUT~
+clk => ~NO_FANOUT~
+modo => ~NO_FANOUT~
+Dout[0] << comb.DB_MAX_OUTPUT_PORT_TYPE
+Dout[1] << Dout[1].DB_MAX_OUTPUT_PORT_TYPE
+Dout[2] << Dout[2].DB_MAX_OUTPUT_PORT_TYPE
+Dout[3] << Dout[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
