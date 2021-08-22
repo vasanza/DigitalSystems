@@ -1,0 +1,22 @@
+Quartus Prime Archive log --	D:/GoogleDrive/F_BLOG/GITHUB/DigitalSystems/Example_MaxToMin_ordering_in_RAM/Example_MaxToMin_ordering_in_RAM.qarlog
+
+Archive:	D:/GoogleDrive/F_BLOG/GITHUB/DigitalSystems/Example_MaxToMin_ordering_in_RAM/Example_MaxToMin_ordering_in_RAM.qar
+Date:		Sun Aug 22 17:54:14 2021
+Quartus Prime		19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+	=========== Files Selected: ===========
+D:/GoogleDrive/F_BLOG/GITHUB/DigitalSystems/Example_MaxToMin_ordering_in_RAM/Example_MaxToMin_ordering_in_RAM.qpf
+D:/GoogleDrive/F_BLOG/GITHUB/DigitalSystems/Example_MaxToMin_ordering_in_RAM/Example_MaxToMin_ordering_in_RAM.qsf
+D:/GoogleDrive/F_BLOG/GITHUB/DigitalSystems/Example_MaxToMin_ordering_in_RAM/MSS.vhd
+D:/GoogleDrive/F_BLOG/GITHUB/DigitalSystems/Example_MaxToMin_ordering_in_RAM/Particion_Funcional.bdf
+D:/GoogleDrive/F_BLOG/GITHUB/DigitalSystems/Example_MaxToMin_ordering_in_RAM/Sumador.vhd
+D:/GoogleDrive/F_BLOG/GITHUB/DigitalSystems/Example_MaxToMin_ordering_in_RAM/comparador.vhd
+D:/GoogleDrive/F_BLOG/GITHUB/DigitalSystems/Example_MaxToMin_ordering_in_RAM/contador_up.vhd
+D:/GoogleDrive/F_BLOG/GITHUB/DigitalSystems/Example_MaxToMin_ordering_in_RAM/mux2a1.vhd
+D:/GoogleDrive/F_BLOG/GITHUB/DigitalSystems/Example_MaxToMin_ordering_in_RAM/ram.vhd
+D:/GoogleDrive/F_BLOG/GITHUB/DigitalSystems/Example_MaxToMin_ordering_in_RAM/registro.vhd
+c:/intelfpga_lite/19.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 11 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

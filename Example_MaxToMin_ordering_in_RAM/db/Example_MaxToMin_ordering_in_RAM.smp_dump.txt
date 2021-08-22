@@ -1,0 +1,14 @@
+
+State Machine - |Particion_Funcional|MSS:inst17|y
+Name y.K y.J y.I y.H y.G y.F y.E y.D y.C y.B y.A 
+y.A 0 0 0 0 0 0 0 0 0 0 0 
+y.B 0 0 0 0 0 0 0 0 0 1 1 
+y.C 0 0 0 0 0 0 0 0 1 0 1 
+y.D 0 0 0 0 0 0 0 1 0 0 1 
+y.E 0 0 0 0 0 0 1 0 0 0 1 
+y.F 0 0 0 0 0 1 0 0 0 0 1 
+y.G 0 0 0 0 1 0 0 0 0 0 1 
+y.H 0 0 0 1 0 0 0 0 0 0 1 
+y.I 0 0 1 0 0 0 0 0 0 0 1 
+y.J 0 1 0 0 0 0 0 0 0 0 1 
+y.K 1 0 0 0 0 0 0 0 0 0 1 
