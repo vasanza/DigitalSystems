@@ -11,10 +11,10 @@ The following functional partition, which includes a Machine Sequential Synchron
 # ASM Diagram:
 - ![image](https://user-images.githubusercontent.com/12642226/130372886-9b3ee2f0-4486-48f9-96bb-77d07b2fe351.png)
 
-# Block diagram Schematic file (BDF):
+# Block diagram Schematic file (BDF) by Angel Zumba:
 ![Quartus2](https://user-images.githubusercontent.com/12642226/130372907-820e6a1d-fa27-4751-bdf6-de1df0f685a3.PNG)
 
-# Vector Waveform File (VWF):
+# Vector Waveform File (VWF) by Angel Zumba:
 - ![vwf](https://user-images.githubusercontent.com/12642226/130372961-8aac29bf-e882-4bc3-ab56-beab9b6a8825.png)
 
 # Read the complete problem:
