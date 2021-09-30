@@ -20,6 +20,7 @@
 
 # Related work (FPGA applications)
 - https://vasanza.blogspot.com/
+- https://ieeexplore.ieee.org/abstract/document/9530151
 - https://ieeexplore.ieee.org/abstract/document/9232863
 - https://link.springer.com/chapter/10.1007%2F978-3-030-59194-6_17
 - https://ieeexplore.ieee.org/document/9096752
