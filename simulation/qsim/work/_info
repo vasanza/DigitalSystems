@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/GoogleDrive/F_ESPOL/6.SISTEMAS_DIGITALES_2/2021_PAO2_TEORIA/SD2C1_VHDL/simulation/qsim
+Emss
+Z0 w1634676543
+Z1 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 CX9c^[CNfbzHb3XCH3hoa1
+Z2 DPx8 cyclonev 19 cyclonev_components 0 22 NZ_cKj>1HW_D7i1UeTO[31
+Z3 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 6`GHcm:DR>=X_840X1FV;0
+Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z5 DPx6 altera 11 dffeas_pack 0 22 dbC[kT^o8P[ggjb1if:RT1
+Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z9 DPx6 altera 28 altera_primitives_components 0 22 PoC3B_7fao?IDTS[NR5Q62
+Z10 dC:/Users/vasan/Desktop/SD2C1VHDL/simulation/qsim
+Z11 8Ejemplo1.vho
+Z12 FEjemplo1.vho
+l0
+L39
+VH2EY5b3>5<0LBT]54fRB42
+!s100 EUVelC9l`RKTkBgeHkcjT2
+Z13 OV;C;10.5b;63
+32
+Z14 !s110 1634676941
+!i10b 1
+Z15 !s108 1634676941.000000
+Z16 !s90 -work|work|Ejemplo1.vho|
+Z17 !s107 Ejemplo1.vho|
+!i113 1
+Z18 o-work work
+Z19 tExplicit 1 CvgOpt 0
+Astructure
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 3 mss 0 22 H2EY5b3>5<0LBT]54fRB42
+l104
+L61
+V49VL2mSJXG5]cYQD6293H1
+!s100 i[DbgW2Z6?ACL1_lMkTNb3
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R18
+R19
+Emss_vhd_vec_tst
+Z20 w1634676541
+R7
+R8
+R10
+Z21 8Waveform.vwf.vht
+Z22 FWaveform.vwf.vht
+l0
+L32
+V]jSPUfC[lcg?hQGDW@7Gi0
+!s100 ZIJjYAVHU^O7gOa8zBldE1
+R13
+32
+R14
+!i10b 1
+R15
+Z23 !s90 -work|work|Waveform.vwf.vht|
+Z24 !s107 Waveform.vwf.vht|
+!i113 1
+R18
+R19
+Amss_arch
+R7
+R8
+Z25 DEx4 work 15 mss_vhd_vec_tst 0 22 ]jSPUfC[lcg?hQGDW@7Gi0
+l53
+L34
+Z26 VH_cQgbAD8^FS=4PS9Q@182
+Z27 !s100 Y<c;bf26R[28nU22_[cFn0
+R13
+32
+R14
+!i10b 1
+R15
+R23
+R24
+!i113 1
+R18
+R19

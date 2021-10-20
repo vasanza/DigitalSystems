@@ -1,0 +1,15 @@
+|MSS
+resetn => y~3.DATAIN
+clk => y~1.DATAIN
+Din => process_0.IN0
+Din => process_0.IN0
+Din => process_0.IN0
+Nin => process_0.IN1
+Nin => process_0.IN1
+Nin => process_0.IN1
+est[0] << est.DB_MAX_OUTPUT_PORT_TYPE
+est[1] << est.DB_MAX_OUTPUT_PORT_TYPE
+est[2] << est[2].DB_MAX_OUTPUT_PORT_TYPE
+Cout << Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

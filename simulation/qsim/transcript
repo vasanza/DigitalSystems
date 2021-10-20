@@ -1,0 +1,43 @@
+# do Ejemplo1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:41 on Oct 19,2021
+# vcom -work work Ejemplo1.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package altera_lnsim_components
+# -- Loading package cyclonev_atom_pack
+# -- Loading package cyclonev_components
+# -- Compiling entity MSS
+# -- Compiling architecture structure of MSS
+# End time: 15:55:41 on Oct 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:55:41 on Oct 19,2021
+# vcom -work work Waveform.vwf.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MSS_vhd_vec_tst
+# -- Compiling architecture MSS_arch of MSS_vhd_vec_tst
+# End time: 15:55:41 on Oct 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cyclonev -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.Ejemplo1_vhd_vec_tst 
+# Start time: 15:55:41 on Oct 19,2021
+# ** Error: (vsim-3170) Could not find 'Ejemplo1_vhd_vec_tst'.
+#         Searched libraries:
+#             c:/intelfpga_lite/19.1/modelsim_ase/altera/vhdl/cyclonev
+#             c:/intelfpga_lite/19.1/modelsim_ase/altera/vhdl/altera
+#             c:/intelfpga_lite/19.1/modelsim_ase/altera/vhdl/altera_mf
+#             c:/intelfpga_lite/19.1/modelsim_ase/altera/vhdl/220model
+#             c:/intelfpga_lite/19.1/modelsim_ase/altera/vhdl/sgate
+#             c:/intelfpga_lite/19.1/modelsim_ase/altera/vhdl/altera_lnsim
+#             C:/Users/vasan/Desktop/SD2C1VHDL/simulation/qsim/work
+# Error loading design
+# End time: 15:55:42 on Oct 19,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
