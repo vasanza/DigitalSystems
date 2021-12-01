@@ -4,30 +4,28 @@
 
 # Project topics
 - Search for numbers in RAM (Max, Min, MaxRep, MinRep, Number)
-![image](https://user-images.githubusercontent.com/12642226/131010883-2c11b969-302b-4ae7-b32b-5a4416556ee7.png)
+ ![image](https://user-images.githubusercontent.com/12642226/131010883-2c11b969-302b-4ae7-b32b-5a4416556ee7.png)
 
 - Ordering of numbers in RAM (Max->Min, Min->Max)
-![image](https://user-images.githubusercontent.com/12642226/131010722-88e0e198-1dbe-483d-805b-310c9c3eb1b8.png)
+ ![image](https://user-images.githubusercontent.com/12642226/131010722-88e0e198-1dbe-483d-805b-310c9c3eb1b8.png)
 
 - Operations with Sets in RAM (A∩B, B∩C, A∩C, A∩B∩C)
-![image](https://user-images.githubusercontent.com/12642226/131010937-6e6963f2-cde8-433e-8d8c-171709b78d86.png)
+ ![image](https://user-images.githubusercontent.com/12642226/131010937-6e6963f2-cde8-433e-8d8c-171709b78d86.png)
 
 - Operations between arrays (A+B,A-B,AxB,A')
-![image](https://user-images.githubusercontent.com/12642226/131011041-187bfa0a-6ee0-4ed0-a79a-b96b95584ff8.png)
+ ![image](https://user-images.githubusercontent.com/12642226/131011041-187bfa0a-6ee0-4ed0-a79a-b96b95584ff8.png)
 
 - Line Intersection Gerometry
-- ![image](https://user-images.githubusercontent.com/12642226/144152636-46c398a8-473a-47f0-8ece-f7c19c289c89.png)
+ ![image](https://user-images.githubusercontent.com/12642226/144152636-46c398a8-473a-47f0-8ece-f7c19c289c89.png)
 
 - Preprocessing (Remove Outliers(Smooth, Hampel, Moving Average))
-- ![image](https://user-images.githubusercontent.com/12642226/144152689-72a09e65-bb44-47cf-bc21-6f8506cff91a.png)
+ ![image](https://user-images.githubusercontent.com/12642226/144152689-72a09e65-bb44-47cf-bc21-6f8506cff91a.png)
 
 - Features (Max, Min, Mean, Std)
-![image](https://user-images.githubusercontent.com/12642226/144152841-ec358e4c-e0fc-4a98-bb7c-3369c0d7ec21.png)
+ ![image](https://user-images.githubusercontent.com/12642226/144152841-ec358e4c-e0fc-4a98-bb7c-3369c0d7ec21.png)
 
 - Microprocessor Architecture
-![image](https://user-images.githubusercontent.com/12642226/131011245-a7f4eaea-b8c0-47c5-9c05-54865fea3d38.png)
-
-- 
+ ![image](https://user-images.githubusercontent.com/12642226/131011245-a7f4eaea-b8c0-47c5-9c05-54865fea3d38.png)
 
 # Related work (FPGA applications)
 - https://vasanza.blogspot.com/
