@@ -1,0 +1,27 @@
+--Structural Implementation
+--https://vasanza.blogspot.com
+--https://github.com/vasanza/MSI-VHDL
+
+--Library
+library ieee;
+use ieee.std_logic_1164.all;
+
+--Entity
+entity Structural is
+	port(
+		resetn,clk,Start,Load,Find: in std_logic;
+		Datos: in std_logic_vector(7 downto 0);
+		Done: out std_logic;
+		Qmax,Qmin: out std_logic_vector(7 downto 0));
+end MSS;
+
+--Architecture
+architecture solve of MSS is
+	-- Signals,Constants,Variables,Components
+	begin
+	--Process #1: Next state decoder and state memory
+	--Sequential programming
+	--Process #2: Output decoder
+	--Sequential programming
+	--Process #n... 
+end solve;

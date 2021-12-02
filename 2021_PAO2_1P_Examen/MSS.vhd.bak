@@ -1,0 +1,25 @@
+--Synchronous Sequential Machine
+--https://vasanza.blogspot.com
+--https://github.com/vasanza/MSI-VHDL
+
+--Library
+library ieee;
+use ieee.std_logic_1164.all;
+
+--Entity
+entity MSS is
+	port(
+		resetn,clk,d,n: in std_logic;
+		est: out std_logic_vector(2 downto 0);
+		c: out std_logic);
+end MSS;
+
+--Architecture
+architecture solve of MSS is
+	-- Signals,Constants,Variables,Components
+	--Process #1: Next state decoder and state memory
+	--Sequential programming
+	--Process #2: Output decoder
+	--Sequential programming
+	--Process #n... 
+end solve;
