@@ -22,7 +22,7 @@
  ![image](https://user-images.githubusercontent.com/12642226/144152689-72a09e65-bb44-47cf-bc21-6f8506cff91a.png)
 
 - Normalization
-![image](https://user-images.githubusercontent.com/12642226/144459661-f6fe16af-bbc4-49ac-92e4-7a280fb06919.png)
+ ![image](https://user-images.githubusercontent.com/12642226/144459809-7ab3aac1-34de-41cb-a086-6b3b3372b147.png)
 
 - Features (Max, Min, Mean, Std)
  ![image](https://user-images.githubusercontent.com/12642226/144152841-ec358e4c-e0fc-4a98-bb7c-3369c0d7ec21.png)
