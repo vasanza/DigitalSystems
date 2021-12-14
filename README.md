@@ -7,6 +7,7 @@
  ![image](https://user-images.githubusercontent.com/12642226/131010883-2c11b969-302b-4ae7-b32b-5a4416556ee7.png)
 
 - Ordering of numbers in RAM (Max->Min, Min->Max)
+- Ref.: http://lwh.free.fr/pages/algo/tri/tri_shell_es.html
  ![image](https://user-images.githubusercontent.com/12642226/131010722-88e0e198-1dbe-483d-805b-310c9c3eb1b8.png)
 
 - Operations with Sets in RAM (A∩B, B∩C, A∩C, A∩B∩C)
