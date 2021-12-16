@@ -4,10 +4,13 @@
 
 # Project topics
 - Search for numbers in RAM (Max, Min, MaxRep, MinRep, Number)
- ![image](https://user-images.githubusercontent.com/12642226/131010883-2c11b969-302b-4ae7-b32b-5a4416556ee7.png)
+- Example: https://github.com/vasanza/DigitalSystems/blob/2021PAO1/Ejemplo3_BuscadorMaxRep/notasclase.pdf
+- ![image](https://user-images.githubusercontent.com/12642226/131010883-2c11b969-302b-4ae7-b32b-5a4416556ee7.png)
 
 - Ordering of numbers in RAM (Max->Min, Min->Max)
 - Ref.: http://lwh.free.fr/pages/algo/tri/tri_shell_es.html
+- Example: https://github.com/vasanza/DigitalSystems/blob/2021PAO2/2021PAO2_EjemploRAM(Ordenamiento).pdf
+- Example: https://github.com/vasanza/DigitalSystems/tree/2018PAO2/RamMaxMinVHDL
  ![image](https://user-images.githubusercontent.com/12642226/131010722-88e0e198-1dbe-483d-805b-310c9c3eb1b8.png)
 
 - Operations with Sets in RAM (A∩B, B∩C, A∩C, A∩B∩C)
@@ -29,6 +32,7 @@
  ![image](https://user-images.githubusercontent.com/12642226/144152841-ec358e4c-e0fc-4a98-bb7c-3369c0d7ec21.png)
 
 - Microprocessor Architecture
+- Example: https://github.com/vasanza/DigitalSystems/tree/2018PAO2/MicroprocesadorVHDL(2018_2P_Leccion)
  ![image](https://user-images.githubusercontent.com/12642226/131011245-a7f4eaea-b8c0-47c5-9c05-54865fea3d38.png)
 
 # Related work (FPGA applications)
