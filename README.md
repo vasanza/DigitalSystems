@@ -3,7 +3,7 @@
 ![FPGA](https://user-images.githubusercontent.com/12642226/126781642-cdb864f0-f16d-4d6c-a406-6fb1c45d97f5.png)
 
 # Project topics
-- Search for numbers in RAM (Max, Min, MaxRep, MinRep, Number)
+## Search for numbers in RAM (Max, Min, MaxRep, MinRep, Number)
 - Example: https://github.com/vasanza/DigitalSystems/blob/2021PAO1/Ejemplo3_BuscadorMaxRep/notasclase.pdf
 - ![image](https://user-images.githubusercontent.com/12642226/131010883-2c11b969-302b-4ae7-b32b-5a4416556ee7.png)
 
