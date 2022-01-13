@@ -1,0 +1,42 @@
+
+State Machine - |processor_design|CONTROL_UNIT:controlador|sState_next
+Name sState_next.exjp sState_next.exjpz sState_next.exopnot sState_next.exopxor sState_next.exopor sState_next.exopand sState_next.exsubc sState_next.exaddc sState_next.exsub sState_next.exadd sState_next.exli sState_next.exloa sState_next.exsto sState_next.exshr sState_next.exshl sState_next.decode sState_next.load sState_next.start 
+sState_next.start 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+sState_next.load 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+sState_next.decode 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+sState_next.exshl 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+sState_next.exshr 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+sState_next.exsto 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+sState_next.exloa 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+sState_next.exli 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+sState_next.exadd 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+sState_next.exsub 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+sState_next.exaddc 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+sState_next.exsubc 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+sState_next.exopand 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+sState_next.exopor 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+sState_next.exopxor 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+sState_next.exopnot 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+sState_next.exjpz 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+sState_next.exjp 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |processor_design|CONTROL_UNIT:controlador|sState
+Name sState.exjp sState.exjpz sState.exopnot sState.exopxor sState.exopor sState.exopand sState.exsubc sState.exaddc sState.exsub sState.exadd sState.exli sState.exloa sState.exsto sState.exshr sState.exshl sState.decode sState.load sState.start 
+sState.start 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+sState.load 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+sState.decode 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+sState.exshl 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+sState.exshr 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+sState.exsto 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+sState.exloa 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+sState.exli 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+sState.exadd 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+sState.exsub 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+sState.exaddc 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+sState.exsubc 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+sState.exopand 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+sState.exopor 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+sState.exopxor 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+sState.exopnot 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+sState.exjpz 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+sState.exjp 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

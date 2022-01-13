@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Thu Jan 13 13:10:18 2022
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : MicroProcesador
+Top-level Entity Name : processor_design
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 336
+Total pins : 145
+Total virtual pins : 0
+Total block memory bits : 32,768
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0
