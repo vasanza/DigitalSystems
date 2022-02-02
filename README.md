@@ -7,7 +7,8 @@
 - Example: https://github.com/vasanza/DigitalSystems/blob/2021PAO1/Ejemplo3_BuscadorMaxRep/notasclase.pdf
 - ![image](https://user-images.githubusercontent.com/12642226/131010883-2c11b969-302b-4ae7-b32b-5a4416556ee7.png)
 ## Ordering of numbers in RAM (Max->Min, Min->Max)
-- Ref.: http://lwh.free.fr/pages/algo/tri/tri_shell_es.html
+- Ref. Selection Sort: http://lwh.free.fr/pages/algo/tri/tri_selection_es.html
+- Ref. Bubble sort: http://lwh.free.fr/pages/algo/tri/tri_bulle_es.html
 - Example: https://github.com/vasanza/DigitalSystems/blob/2021PAO2/2021PAO2_EjemploRAM(Ordenamiento).pdf
 - Example: https://github.com/vasanza/DigitalSystems/tree/2018PAO2/RamMaxMinVHDL
 - ![image](https://user-images.githubusercontent.com/12642226/131010722-88e0e198-1dbe-483d-805b-310c9c3eb1b8.png)
