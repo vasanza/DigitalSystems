@@ -29,16 +29,24 @@
 - Example: https://github.com/vasanza/DigitalSystems/tree/2018PAO2/MicroprocesadorVHDL(2018_2P_Leccion)
 - ![image](https://user-images.githubusercontent.com/12642226/131011245-a7f4eaea-b8c0-47c5-9c05-54865fea3d38.png)
 
-
 # Contenido
 ![SD](https://user-images.githubusercontent.com/12642226/150647904-c8eaf852-bfd2-4465-b432-90fd83dee562.png)
-En este repositorio puedes encontrar códigos de bloques de Mediana Escala de Integración (MSI) para utilizar en tus diseños digitales.
-Además, te recomiendo revisar estos enlaces a videos y ejemplos que te serán útiles para el diseño de Sistemas Digitales:
+En este repositorio puedes encontrar códigos de bloques de Mediana Escala de Integración (MSI) en VHDL para utilizar en tus diseños digitales. Además, te recomiendo revisar el README, ya que contiene enlaces a videos y ejercicios resueltos que te serán muy útiles. Las secciones resumen todo lo referentes a los Sistemas Digitales y te serán utiles para las materias de Sistemas Digitales 1, Sistemas Digitales2, Fundamentos de Electricidad y Sistemas Digitales. Esto se detalla a continuación:
+- **Sistemas Digitales 1:** Desde la sección 1 (Puertas lógicas y Circuitos Combinatoriales) hasta la sección 4 (Maquinas Secuenciales Sincrónicas).
+- **Sistemas Digitales 2:** Desde la sección 4 (Maquinas Secuenciales Sincrónicas) hasta la sección 8 (Arquitectura de Microprocesadores).
+- **Fundamentos de Electricidad y Sistemas Digitales:** Sección 1 (Puertas lógicas y Circuitos Combinatoriales).
+
+Algunas de las aplicaciones que hacen uso de los codigos VHDL de este repositorio son los siguientes:
+- [Sort Application](https://github.com/vasanza/FPGA-based-Co2-Monitor): FPGA based Co2 Monitor.
+- [Ordering Application](https://vasanza.blogspot.com/2021/08/maximum-to-minimum-ordering-of-values.html): Maximum to minimum ordering values.
+- [Search Applications](https://vasanza.blogspot.com/2021/07/maximum-number-finder-and-repetition.html): Maximum number finder and repetition.
+- [Performance Applications](https://github.com/VHDL-Digital-Systems/Sistema_gestion_base_de_datos_FPGA_HPS_DE10Standard), [paper](https://ieeexplore.ieee.org/document/9647742): Performance Comparison of Database Server based on SoC FPGA and ARM Processor.
 
 ## 1. Puertas lógicas y Circuitos Combinatoriales
 - [Video 1](https://www.youtube.com/watch?v=fiQaocvqg9M&list=PLQzI-judwt-k4PkAGj_e_ZHDzYI0ZpshK&index=17&t=4393s):  Introducción a los Sistemas Digitales.
 - [Video 2](https://www.youtube.com/watch?v=RsQSRA2K-R0&list=PLQzI-judwt-k4PkAGj_e_ZHDzYI0ZpshK&index=17&t=2876s): Ejercicios resueltos de Sistemas Digitales.
-- [Práctica](https://vasanza.blogspot.com/2017/08/practica-analisis-de-circuitos.html): Análisis de Circuitos Combinatoriales.
+- [Video 3 (Felipe Machado)](https://www.youtube.com/watch?v=NsBdEsCLees): Electrónica digital con circuitos integrados básicos (1) - Encender un led con el 74HC04.
+- [Video 4 (Felipe Machado)](https://www.youtube.com/watch?v=7t9DReaGcE8&t=258s): Montar circuitos en placa de inserción (Breadboard o Protoboard).
 - [Ejercicios propuestos](https://vasanza.blogspot.com/2017/05/ejercicios-propuestos-cap1-sistemas.html): Comversión de base, Suma-Multiplicación-División en diferentes bases, Complemento a2.
 - [Ejercicios resueltos 1](https://vasanza.blogspot.com/2017/11/leccion-1er-parcial-sistemas-digitales.html): Conversión de base, Complemento a2, BCD, Algebra de Boole y Circuitos combinatoriales.
 - [Ejercicios resueltos 2](https://vasanza.blogspot.com/2021/07/solucion-leccion-sistemas-digitales-1.html): Conversión de base, ca2, Codigo BCD-Gray-XS3.
@@ -47,10 +55,17 @@ Además, te recomiendo revisar estos enlaces a videos y ejemplos que te serán �
 - [Ejercicios resueltos 5](https://vasanza.blogspot.com/2021/07/solucion-leccion-sistemas-digitales-1_7.html): Circuito combinatorial y Mapas de Karnaugh.
 - [Ejercicios resueltos 6](https://vasanza.blogspot.com/2021/03/solucion-leccion-sistemas-digitales-1_23.html): Circuito combinatorial y Mapas de Karnaugh.
 - [Ejercicios resueltos 7](https://vasanza.blogspot.com/2017/12/sistemas-digitales-1-solucion-examen.html): Circuito combinatorial.
+- [Ejercicios resueltos 8](https://vasanza.blogspot.com/2022/01/solucion-evaluacion-fundamentos-de.html): Circuito combinatorial, mapas de karnaugh, circuitos digitales y conversiones.
+- [Práctica](https://vasanza.blogspot.com/2017/08/practica-analisis-de-circuitos.html): Análisis de Circuitos Combinatoriales.
 
 ## 2. Programación en VHDL
 - [Video 1](https://www.youtube.com/watch?v=iWi0UZ-J1ps&list=PLQzI-judwt-k4PkAGj_e_ZHDzYI0ZpshK&index=19), [Post 1](https://vasanza.blogspot.com/2020/01/lenguaje-de-descripcion-de-hardware.html):  Uso de Lenguaje de descripción de hardware VHDL para la programación de un Sistema Digital concurrente.
 - [Video 2](https://www.youtube.com/watch?v=v5BQ54q3yq8&list=PLQzI-judwt-k4PkAGj_e_ZHDzYI0ZpshK&index=19&t=8s), [Post 2](https://vasanza.blogspot.com/2020/01/lenguaje-de-descripcion-de-hardware_16.html):  Uso de Lenguaje de descripción de hardware VHDL para la programación de un Sistema Digital secuencial.
+- [Video 3 (Felipe Machado)](https://www.youtube.com/watch?v=yZ9lwky60sI): Diseño estructural en VHDL.
+- [Video 4 (Felipe Machado)](https://www.youtube.com/watch?v=g7Z-sBpmCJU): Diseño VHDL 1: Puertas lógicas.
+- [Video 5 (Felipe Machado)](https://www.youtube.com/watch?v=CQdw-M1ooTI): Diseño VHDL 2: Multiplexor (1/2).
+- [Video 6 (Felipe Machado)](https://www.youtube.com/watch?v=or_vwCTSY8M): Diseño VHDL 2: Multiplexor (2/2).
+- [Video 7 (Felipe Machado)](https://www.youtube.com/watch?v=g0FnaDB3niE): Diseño VHDL 4: Reglas de diseño combinacional.
 - [Ejercicios resueltos 1](https://vasanza.blogspot.com/2020/07/solucion-leccion-sistemas-digitales-1.html): Circuito combinatorial, Algebra de Boole y VHDL.
 - [Ejercicios resueltos 2](https://vasanza.blogspot.com/2020/07/solucion-leccion-sistemas-digitales-1_22.html): Circuito combinatorial y VHDL.
 - [Ejercicios resueltos 3](https://vasanza.blogspot.com/2021/07/solucion-evaluacion-sistemas-digitales.html): Circuito combinatorial y VHDL.
@@ -60,6 +75,16 @@ Además, te recomiendo revisar estos enlaces a videos y ejemplos que te serán �
 - [Práctica](https://vasanza.blogspot.com/2017/08/practica-resolucion-de-circuitos.html): Circuito combinatorial y VHDL.
 
 ## 3. Circuitos de Mediana Escala de Integración (MSI)
+- [Video 1 (Felipe Machado)](https://www.youtube.com/watch?v=OI_f3MdsHjM): Decodificador de 2 a 4 - Circuitos combinacionales.
+- [Video 2 (Felipe Machado)](https://www.youtube.com/watch?v=IyYyuDfyXWs): Decodificador de 3 a 8 usando decodificadores de 2 a 4 - Circuitos combinacionales.
+- [Video 3 (Felipe Machado)](https://www.youtube.com/watch?v=LElFYHnz1Ls): Multiplexor de 2 entradas - Circuitos combinacionales.
+- [Video 4 (Felipe Machado)](https://www.youtube.com/watch?v=oLKFXejJ4PI): Multiplexor de 4 entradas - Circuitos combinacionales.
+- [Video 5 (Felipe Machado)](https://www.youtube.com/watch?v=7qJSQClaSyk): Circuitos combinacionales. Reglas de diseño.
+- [Video 6 (Felipe Machado)](https://www.youtube.com/watch?v=m7oDCPnt9Bo): Decodificador de binario de 2 bits a display de 7 segmentos - Circuitos combinacionales.
+- [Video 7 Simulador Digital (Felipe Machado)](https://www.youtube.com/watch?v=dt5Y_P4Xqd0): Tutorial simulador Digital (p1): decodificador binario 2 bits a 7 segmentos con puertas lógicas.
+- [Video 8 Simulador Digital (Felipe Machado)](https://www.youtube.com/watch?v=A5sYTEI7anY): Tutorial simulador Digital (p2): decodificador binario 2 bits a 7 segmentos con serie 74.
+- [Video 9 Ejercicio (Felipe Machado)](https://www.youtube.com/watch?v=_J2JgAyhwrw): Ejercicio ascensor (1/2) - circuitos combinacionales.
+- [Video 10 Ejercicio (Felipe Machado)](https://www.youtube.com/watch?v=Rxv676RDH9M): Ejercicio ascensor (2/2) - Simulador Digital - Circuitos combinacionales.
 - [Ejercicios resueltos 1](https://vasanza.blogspot.com/2020/09/solucion-leccion-sistemas-digitales-1_5.html): Mux y Flip-Flop.
 - [Ejercicios resueltos 2](https://vasanza.blogspot.com/2020/08/solucion-leccion-sistemas-digitales-1_19.html): Mux y Decoder.
 - [Ejercicios resueltos 3](https://vasanza.blogspot.com/2021/04/solucion-evaluacion-sistemas-digitales_22.html): Sistemas Digitales basado en MSI y VHDL.
@@ -74,6 +99,18 @@ Además, te recomiendo revisar estos enlaces a videos y ejemplos que te serán �
 - [Video 2](https://www.youtube.com/watch?v=gm7dK02FfDo&list=PLQzI-judwt-k4PkAGj_e_ZHDzYI0ZpshK&index=12&t=1s): Conversión y aplicaciones de los Flip-Flips (FF).
 - [Video 3](https://www.youtube.com/watch?v=jMllwBxmH0E&list=PLQzI-judwt-k4PkAGj_e_ZHDzYI0ZpshK&index=11&t=6s): Explicación y Simulación del Registro Universal 74194.
 - [Video 4](https://www.youtube.com/watch?v=Sf8DrhujwEE&list=PLQzI-judwt-k4PkAGj_e_ZHDzYI0ZpshK&index=6&t=1s): Simulación de la una MSS para carga de datos secuenciales.
+- [Video 5 (Felipe Machado)](https://www.youtube.com/watch?v=Y3B1UKwQ7G8): Biestable S-R asíncrono (1/3) - Circuitos secuenciales.
+- [Video 6 (Felipe Machado)](https://www.youtube.com/watch?v=KdRcHo1msxI): Biestable S-R asíncrono (2/3): Cronograma - Circuitos secuenciales.
+- [Video 7 (Felipe Machado)](https://www.youtube.com/watch?v=ipsJB2MKqvU): Biestable S-R asíncrono (3/3): Puertas NAND - Circuitos secuenciales.
+- [Video 8 (Felipe Machado)](https://www.youtube.com/watch?v=gg18OY2jI9o): Biestable T - Circuitos secuenciales.
+- [Video 9 (Felipe Machado)](https://www.youtube.com/watch?v=nfqN-mc4y7U): Conversión entre biestables - Circuitos secuenciales.
+- [Video 10 (Felipe Machado)](https://www.youtube.com/watch?v=sSshNG9Yg3o): Contador hexadecimal ascendente - Contadores síncronos.
+- [Video 11 (Felipe Machado)](https://www.youtube.com/watch?v=KLtJiMPBFQw): Simulador Digital: contador hexadecimal ascendente.
+- [Video 12 (Felipe Machado)](https://www.youtube.com/watch?v=VyQryRyeddM): Contador BCD ascendente - Contadores síncronos.
+- [Video 13 (Felipe Machado)](https://www.youtube.com/watch?v=Xwe54nn43ew): Simulador Digital: contador BCD ascendente.
+- [Video 14 (Felipe Machado)](https://www.youtube.com/watch?v=yIW0QKyELck): Cronómetro: contadores en cascada - Contadores síncronos.
+- [Video 15 (Felipe Machado)](https://www.youtube.com/watch?v=yg38aJgQtSA): Simulador Digital: cronómetro con contadores 74x160.
+- [Video 16 (Felipe Machado)](https://www.youtube.com/watch?v=YV-jXRsEnWs): Ejercicio: Biestable T con carga de datos síncrona - Circuitos secuenciales.
 - [Post](https://vasanza.blogspot.com/2016/11/sd-resumen-de-pasos-en-implementacion.html): Pasos para implementar una MSS.
 - [Ejercicios resueltos 1](https://vasanza.blogspot.com/2020/09/solucion-leccion-sistemas-digitales-1.html): Flip-Flop.
 - [Ejercicios resueltos 2](https://vasanza.blogspot.com/2021/04/solucion-leccion-sistemas-digitales-1_20.html): Flip-Flop.
@@ -130,6 +167,9 @@ Además, te recomiendo revisar estos enlaces a videos y ejemplos que te serán �
 - [Video 3](https://www.youtube.com/watch?v=9PJScPknzhY&list=PLQzI-judwt-k4PkAGj_e_ZHDzYI0ZpshK&index=4&t=1164s): Arquitectura de un Microprocesador Genérico.
 - [Video 4](https://www.youtube.com/watch?v=UdNjA-8QmtU&list=PLQzI-judwt-k4PkAGj_e_ZHDzYI0ZpshK&index=3&t=2s): Arquitectura de un Microprocesador Genérico v2.
 - [Video 5](https://www.youtube.com/watch?v=zKjPHsazdcA&list=PLQzI-judwt-k4PkAGj_e_ZHDzYI0ZpshK&index=2&t=180s): Simulación de un Microprocesador Genérico.
+- [Video 6 mlinaje](https://www.youtube.com/watch?v=fLutXVgrh1s): Arquitectura 8086: Introducción (1/3).
+- [Video 7 mlinaje](https://www.youtube.com/watch?v=5xJQF8AqoTs): Arquitectura 8086: Introducción (2/3): Bus Interface Unit.
+- [Video 8 mlinaje](https://www.youtube.com/watch?v=qcH9eUEQqdw): Arquitectura 8086: Introducción (3/3): Execution Unit.
 - [Ejercicios resueltos 1](https://vasanza.blogspot.com/2018/09/solucion-examen-sistemas-digitales-2.html): Arquietectura fija MSS + ALU para para determinar el valor máximo y mínimo almacenado en RAM.
 - [Ejercicios resueltos 2](https://vasanza.blogspot.com/2019/01/sistemas-digitales-2-leccion-propuesta.html): Arquietectura fija MSS + ALU para para determinar las repeticiones del valor más alto en RAM.
 - [Ejercicios resueltos 3](https://vasanza.blogspot.com/2019/01/sistemas-digitales-2-examen-resuelto.html): Arquietectura fija MSS + ALU para para ingresar y determinar el valor máximo y mínimo almacenado en RAM.
@@ -158,6 +198,23 @@ Además, te recomiendo revisar estos enlaces a videos y ejemplos que te serán �
 - [Ejemplo 13](https://vasanza.blogspot.com/2015/09/proyecto-vhdl-detector-eficiente-de.html): Efficient Number Sequence Detector.
 - [Ejemplo 14](https://vasanza.blogspot.com/2015/09/determinante-de-una-matriz-con-quartus.html): Determinant of a matrix.
 
+## Future work (Xilinx and RISC-V)
+- [Video 1 Software ISE (Felipe Machado)](https://www.youtube.com/watch?v=C3jSokC1FkU): simulacion Xilinx ISE 14.7 con VHDL.
+- [Video 2 Software ISE (Felipe Machado)](https://www.youtube.com/watch?v=WZnMXwgH4yY): Simulacion Xilinx Vivado v2015.2 con VHDL.
+- [Video 3 Software ISE (Felipe Machado)](https://www.youtube.com/watch?v=kDdmTHDE9qc): Encontrar los ficheros VHDL en Vivado 2015.2.
+- [Video 4 Software ISE (Felipe Machado)](https://www.youtube.com/watch?v=Y96goMpGQw0): Simulación con Vivado 2016.4: Cómo encontrar errores de sintaxis VHDL.
+- [Video 1 RISC-V ISA (Felipe Machado)](https://www.youtube.com/watch?v=JyvZ0i9s6xg&t=13s): RISC-V ISA 1: Introducción al conjunto de instrucciones.
+- [Video 2 RISC-V ISA (Felipe Machado)](https://www.youtube.com/watch?v=g68KrucGxq0): RISC-V ISA 2: Instrucciones tipo R (1/2).
+- [Video 3 RISC-V ISA (Felipe Machado)](https://www.youtube.com/watch?v=x7b3PgDEAvM): RISC-V ISA 3: Instrucciones tipo R (2/2).
+- [Video 4 RISC-V ISA (Felipe Machado)](https://www.youtube.com/watch?v=22iIFspcYBM): RISC-V ISA 4: Instrucciones tipo I - Operaciones con constantes.
+- [Video 5 RISC-V ISA (Felipe Machado)](https://www.youtube.com/watch?v=4_WlVK3E97g): RISC-V ISA 5: Instrucciones de carga y almacenamiento.
+- [Video 6 RISC-V ISA (Felipe Machado)](https://www.youtube.com/watch?v=Q6FRCH7PStg): RISC-V ISA 6: Instrucciones de control y programa almacenado en memoria.
+- [Video 1 RISC-V](https://www.youtube.com/watch?v=nLcPNXMj1lI): RISC-V diseño básico 1: Operaciones entre registros.
+- [Video 2 RISC-V](https://www.youtube.com/watch?v=0SzpwGoRbuU): RISC-V diseño básico 2: Operaciones con constantes.
+- [Video 3 RISC-V](https://www.youtube.com/watch?v=_cgsoTj7OqM): RISC-V diseño básico 3: Instrucción de carga desde memoria.
+- [Video 4 RISC-V](https://www.youtube.com/watch?v=A7eJFdwGdDk): RISC-V diseño básico 4: Instrucción de almacenamiento en memoria.
+- [Video 5 RISC-V](https://www.youtube.com/watch?v=5Ico3t2405A): RISC-V diseño básico 5: Memoria de programa y contador de programa.
+- [Video 6 RISC-V](https://www.youtube.com/watch?v=UzCLsPhydBY): RISC-V diseño básico 6: Instrucciones de control (branches).
 
 # Información adicional
 ## Drive con Presentaciones, ejemplos resueltos y videos
@@ -171,6 +228,7 @@ Además, te recomiendo revisar estos enlaces a videos y ejemplos que te serán �
 - **Paper 3:** [Monitoring of system memory usage embedded in FPGA](https://ieeexplore.ieee.org/abstract/document/9232863)
 - **Paper 4:** [Behavioral Signal Processing with Machine Learning Based on FPGA](https://link.springer.com/chapter/10.1007%2F978-3-030-59194-6_17)
 - **Paper 5:** [Implementation of a Classification System of EEG Signals Based on FPGA](https://ieeexplore.ieee.org/document/9096752)
+- http://blog.espol.edu.ec/sistemasdigitalesfiec
 
 ## Repository technical specifications
 - **IDE:** Quartus Prime 17.0.0 Build 595 04/25/2017 SJ Standard Edition
@@ -179,7 +237,6 @@ Además, te recomiendo revisar estos enlaces a videos y ejemplos que te serán �
 
 ## About
 - [Víctor Asanza](https://vasanza.blogspot.com/p/about-me.html)
-
 
 # Keynote
 ## CLONE
