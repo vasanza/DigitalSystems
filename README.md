@@ -186,14 +186,14 @@ Además, te recomiendo revisar estos enlaces a videos y ejemplos que te serán �
 - git status
 - git clone https://github.com/vasanza/DigitalSystems.git
 
-## SWITCHED TO BRANCH
+## Switched to Branch
 - git branch -a
 - git checkout NameBranch
 
 ## New Branch
 - git checkout -b NameBranch
 
-## PUSH
+## Push
 - git pull origin NameBranch
 - git status
 - git add .
