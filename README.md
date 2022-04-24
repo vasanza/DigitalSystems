@@ -5,13 +5,13 @@
 # Project topics
 ## Search for numbers in RAM (Max, Min, MaxRep, MinRep, Number)
 - Example: https://github.com/vasanza/DigitalSystems/blob/2021PAO1/Ejemplo3_BuscadorMaxRep/notasclase.pdf
-- ![image](https://user-images.githubusercontent.com/12642226/131010883-2c11b969-302b-4ae7-b32b-5a4416556ee7.png)
+![image](https://user-images.githubusercontent.com/12642226/131010883-2c11b969-302b-4ae7-b32b-5a4416556ee7.png)
 ## Ordering of numbers in RAM (Max->Min, Min->Max)
 - Ref. Selection Sort: http://lwh.free.fr/pages/algo/tri/tri_selection_es.html
 - Ref. Bubble sort: http://lwh.free.fr/pages/algo/tri/tri_bulle_es.html
 - Example: https://github.com/vasanza/DigitalSystems/blob/2021PAO2/2021PAO2_EjemploRAM(Ordenamiento).pdf
 - Example: https://github.com/vasanza/DigitalSystems/tree/2018PAO2/RamMaxMinVHDL
-- ![image](https://user-images.githubusercontent.com/12642226/131010722-88e0e198-1dbe-483d-805b-310c9c3eb1b8.png)
+![image](https://user-images.githubusercontent.com/12642226/131010722-88e0e198-1dbe-483d-805b-310c9c3eb1b8.png)
 ## Operations with Sets in RAM (A∩B, B∩C, A∩C, A∩B∩C)
 - ![image](https://user-images.githubusercontent.com/12642226/131010937-6e6963f2-cde8-433e-8d8c-171709b78d86.png)
 ## Operations between arrays (A+B,A-B,AxB,A')
