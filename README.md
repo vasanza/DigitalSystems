@@ -29,6 +29,7 @@
 - Example: https://github.com/vasanza/DigitalSystems/tree/2018PAO2/MicroprocesadorVHDL(2018_2P_Leccion)
 - ![image](https://user-images.githubusercontent.com/12642226/131011245-a7f4eaea-b8c0-47c5-9c05-54865fea3d38.png)
 
+
 # Contenido
 ![SD](https://user-images.githubusercontent.com/12642226/150647904-c8eaf852-bfd2-4465-b432-90fd83dee562.png)
 En este repositorio puedes encontrar códigos de bloques de Mediana Escala de Integración (MSI) en VHDL para utilizar en tus diseños digitales. Además, te recomiendo revisar el README, ya que contiene enlaces a videos y ejercicios resueltos que te serán muy útiles. Las secciones resumen todo lo referentes a los Sistemas Digitales y te serán utiles para las materias de Sistemas Digitales 1, Sistemas Digitales2, Fundamentos de Electricidad y Sistemas Digitales. Esto se detalla a continuación:
