@@ -13,7 +13,7 @@
 - Example: https://github.com/vasanza/DigitalSystems/tree/2018PAO2/RamMaxMinVHDL
 ![image](https://user-images.githubusercontent.com/12642226/131010722-88e0e198-1dbe-483d-805b-310c9c3eb1b8.png)
 ## Operations with Sets in RAM (A∩B, B∩C, A∩C, A∩B∩C)
-- ![image](https://user-images.githubusercontent.com/12642226/131010937-6e6963f2-cde8-433e-8d8c-171709b78d86.png)
+![image](https://user-images.githubusercontent.com/12642226/131010937-6e6963f2-cde8-433e-8d8c-171709b78d86.png)
 ## Operations between arrays (A+B,A-B,AxB,A')
 - Example: https://github.com/vasanza/DigitalSystems/blob/2021PAO2/2021PAO2_EjemploRAM(Matrices).pdf
 ![image](https://user-images.githubusercontent.com/12642226/131011041-187bfa0a-6ee0-4ed0-a79a-b96b95584ff8.png)
