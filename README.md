@@ -30,7 +30,7 @@
 ![image](https://user-images.githubusercontent.com/12642226/131011245-a7f4eaea-b8c0-47c5-9c05-54865fea3d38.png)
 
 # Contenido
-![SD](https://user-images.githubusercontent.com/12642226/150647904-c8eaf852-bfd2-4465-b432-90fd83dee562.png)
+![FPGA](https://user-images.githubusercontent.com/12642226/216881001-e99581a8-93b2-4759-a0e8-f3164da46b1d.png)
 En este repositorio puedes encontrar códigos de bloques de Mediana Escala de Integración (MSI) en VHDL para utilizar en tus diseños digitales. Además, te recomiendo revisar el README, ya que contiene enlaces a videos y ejercicios resueltos que te serán muy útiles. Las secciones resumen todo lo referentes a los Sistemas Digitales y te serán utiles para las materias de Sistemas Digitales 1, Sistemas Digitales2, Fundamentos de Electricidad y Sistemas Digitales. Esto se detalla a continuación:
 - **Sistemas Digitales 1:** Desde la sección 1 (Puertas lógicas y Circuitos Combinatoriales) hasta la sección 4 (Maquinas Secuenciales Sincrónicas).
 - **Sistemas Digitales 2:** Desde la sección 4 (Maquinas Secuenciales Sincrónicas) hasta la sección 8 (Arquitectura de Microprocesadores).
@@ -43,10 +43,11 @@ Algunas de las aplicaciones que hacen uso de los codigos VHDL de este repositori
 - [Performance Applications](https://github.com/VHDL-Digital-Systems/Sistema_gestion_base_de_datos_FPGA_HPS_DE10Standard), [paper](https://ieeexplore.ieee.org/document/9647742): Performance Comparison of Database Server based on SoC FPGA and ARM Processor.
 
 ## 1. Puertas lógicas y Circuitos Combinatoriales
-- [Video 1](https://www.youtube.com/watch?v=fiQaocvqg9M&list=PLQzI-judwt-k4PkAGj_e_ZHDzYI0ZpshK&index=17&t=4393s):  Introducción a los Sistemas Digitales.
-- [Video 2](https://www.youtube.com/watch?v=RsQSRA2K-R0&list=PLQzI-judwt-k4PkAGj_e_ZHDzYI0ZpshK&index=17&t=2876s): Ejercicios resueltos de Sistemas Digitales.
-- [Video 3 (Felipe Machado)](https://www.youtube.com/watch?v=NsBdEsCLees): Electrónica digital con circuitos integrados básicos (1) - Encender un led con el 74HC04.
-- [Video 4 (Felipe Machado)](https://www.youtube.com/watch?v=7t9DReaGcE8&t=258s): Montar circuitos en placa de inserción (Breadboard o Protoboard).
+- [Video 1 (Nate Gentile)](https://www.youtube.com/watch?v=RVGIXfC4Xeg): Sistema BINARIO y Puertas Lógicas.
+- [Video 2](https://www.youtube.com/watch?v=fiQaocvqg9M&list=PLQzI-judwt-k4PkAGj_e_ZHDzYI0ZpshK&index=17&t=4393s):  Introducción a los Sistemas Digitales.
+- [Video 3](https://www.youtube.com/watch?v=RsQSRA2K-R0&list=PLQzI-judwt-k4PkAGj_e_ZHDzYI0ZpshK&index=17&t=2876s): Ejercicios resueltos de Sistemas Digitales.
+- [Video 4 (Felipe Machado)](https://www.youtube.com/watch?v=NsBdEsCLees): Electrónica digital con circuitos integrados básicos (1) - Encender un led con el 74HC04.
+- [Video 5 (Felipe Machado)](https://www.youtube.com/watch?v=7t9DReaGcE8&t=258s): Montar circuitos en placa de inserción (Breadboard o Protoboard).
 - [Ejercicios propuestos](https://vasanza.blogspot.com/2017/05/ejercicios-propuestos-cap1-sistemas.html): Comversión de base, Suma-Multiplicación-División en diferentes bases, Complemento a2.
 - [Ejercicios resueltos 1](https://vasanza.blogspot.com/2017/11/leccion-1er-parcial-sistemas-digitales.html): Conversión de base, Complemento a2, BCD, Algebra de Boole y Circuitos combinatoriales.
 - [Ejercicios resueltos 2](https://vasanza.blogspot.com/2021/07/solucion-leccion-sistemas-digitales-1.html): Conversión de base, ca2, Codigo BCD-Gray-XS3.
@@ -177,6 +178,44 @@ Algunas de las aplicaciones que hacen uso de los codigos VHDL de este repositori
 - [Ejercicios resueltos 5](https://vasanza.blogspot.com/2019/02/sistemas-digitales-2-examen-resuelto.html): Programación en lenguaje C.
 - [Repositorio](https://github.com/vasanza/DigitalSystems/tree/2021PAO2/Practica_MicroProcesador): Arquitectura de un Microprocesador Genérico en VHDL.
 
+## 9. Optional: RISC-V (ISA) de hardware libre
+- [Video 1 RISC-V ISA (Felipe Machado)](https://www.youtube.com/watch?v=JyvZ0i9s6xg&t=13s): RISC-V ISA 1: Introducción al conjunto de instrucciones.
+- [Video 2 RISC-V ISA (Felipe Machado)](https://www.youtube.com/watch?v=g68KrucGxq0): RISC-V ISA 2: Instrucciones tipo R (1/2).
+- [Video 3 RISC-V ISA (Felipe Machado)](https://www.youtube.com/watch?v=x7b3PgDEAvM): RISC-V ISA 3: Instrucciones tipo R (2/2).
+- [Video 4 RISC-V ISA (Felipe Machado)](https://www.youtube.com/watch?v=22iIFspcYBM): RISC-V ISA 4: Instrucciones tipo I - Operaciones con constantes.
+- [Video 5 RISC-V ISA (Felipe Machado)](https://www.youtube.com/watch?v=4_WlVK3E97g): RISC-V ISA 5: Instrucciones de carga y almacenamiento.
+- [Video 6 RISC-V ISA (Felipe Machado)](https://www.youtube.com/watch?v=Q6FRCH7PStg): RISC-V ISA 6: Instrucciones de control y programa almacenado en memoria.
+- [Video 1 RISC-V (Felipe Machado)](https://www.youtube.com/watch?v=nLcPNXMj1lI): RISC-V diseño básico 1: Operaciones entre registros.
+- [Video 2 RISC-V (Felipe Machado)](https://www.youtube.com/watch?v=0SzpwGoRbuU): RISC-V diseño básico 2: Operaciones con constantes.
+- [Video 3 RISC-V (Felipe Machado)](https://www.youtube.com/watch?v=_cgsoTj7OqM): RISC-V diseño básico 3: Instrucción de carga desde memoria.
+- [Video 4 RISC-V (Felipe Machado)](https://www.youtube.com/watch?v=A7eJFdwGdDk): RISC-V diseño básico 4: Instrucción de almacenamiento en memoria.
+- [Video 5 RISC-V (Felipe Machado)](https://www.youtube.com/watch?v=5Ico3t2405A): RISC-V diseño básico 5: Memoria de programa y contador de programa.
+- [Video 6 RISC-V (Felipe Machado)](https://www.youtube.com/watch?v=UzCLsPhydBY): RISC-V diseño básico 6: Instrucciones de control (branches).
+- [Example 1 RISC-V Architecture (Semi-core)](https://github.com/VHDL-Digital-Systems/RISC-V-Semi-Core).
+- [Example 2 RISC-V Architecture](https://github.com/VHDL-Digital-Systems/riscv-isa-sim).
+- [Video 1 RISC-V (Obijuan)](https://www.youtube.com/watch?v=GYvBAHdkRwk&t=50s): Arquitectura de Ordenadores RISC-V. Práctica 1-Sesion-1-Video-01 (1/53)
+- [Video 2 RISC-V (Obijuan)](https://www.youtube.com/watch?v=79YWqV1Mi0s&t=17s): Arquitectura de Ordenadores RISC-V. Práctica 1-Sesion-1-Video-02 (2/53)
+- [Video 3 RISC-V (Obijuan)](https://www.youtube.com/watch?v=UrEDtPgc9IQ&t=8s): Arquitectura de Ordenadores RISC-V. Práctica 1-Sesion-2-Video-01 (3/53)
+- [Video 4 RISC-V (Obijuan)](https://www.youtube.com/watch?v=afZiZNOeblg&t=76s): Arquitectura de Ordenadores RISC-V. Práctica 1-Sesion-2-Video-02 (4/53)
+- [Video 5 RISC-V (Obijuan)](https://www.youtube.com/watch?v=Osy6J0tb4p8&t=6s): Arquitectura de Ordenadores RISC-V. Práctica 1-Sesion-2-Video-05 (5/53)
+- [Video 6 RISC-V (Obijuan)](https://www.youtube.com/watch?v=w4NZ_917M7g&t=49s): Arquitectura de Ordenadores RISC-V. Práctica 1-Sesion-2-Video-04 (6/53)
+
+## 10. Optional: The ARM Memory Management Unit (MMU)
+- [Video 1 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=qcBIvnQt0Bw): Introduction.
+- [Video 2 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=eSPFB-xF5iM): Three problems with Memory.
+- [Video 3 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=qlH4-oHnBb8): What is Virtual Memory?.
+- [Video 4 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=59rEMnKWoS4&t=12s): How Does Virtual Memory Work?.
+- [Video 5 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=KNUJhZCQZ9c): Page Tables.
+- [Video 6 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=ZjKS1IbiGDA): Address Translation.
+- [Video 7 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=6neHHkI0Z0o): Address Translation Example Walkthrough.
+- [Video 8 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=bShqyf-hDfg): Page Faults.
+- [Video 9 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=uDzXXnNy544): Memory Protection.
+- [Video 10 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=uyrSn3qbZ8U): Making Virtual Memory Fast.
+- [Video 11 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=95QpHJX55bM): TLB Example.
+- [Video 12 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=Z4kSOv49GNc): Multi-level Page Tables.
+- [Video 13 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=3sX5obQCHNA): TLBs and Caches.
+- [Video 14 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=FRvzCrWcFZA): Summary.
+
 ## Temas de proyectos
 - [Sistemas Digitales 1](https://vasanza.blogspot.com/2021/05/sistemas-digitales-1-proyectos.html): Proyectos basados en MSS.
 - [Sistemas Digitales 2](https://vasanza.blogspot.com/2021/06/sistemas-digitales-2-proyectos.html): Proyectos basados en memorias RAM v1.
@@ -203,32 +242,6 @@ Algunas de las aplicaciones que hacen uso de los codigos VHDL de este repositori
 - [Video 2 Software ISE (Felipe Machado)](https://www.youtube.com/watch?v=WZnMXwgH4yY): Simulacion Xilinx Vivado v2015.2 con VHDL.
 - [Video 3 Software ISE (Felipe Machado)](https://www.youtube.com/watch?v=kDdmTHDE9qc): Encontrar los ficheros VHDL en Vivado 2015.2.
 - [Video 4 Software ISE (Felipe Machado)](https://www.youtube.com/watch?v=Y96goMpGQw0): Simulación con Vivado 2016.4: Cómo encontrar errores de sintaxis VHDL.
-- [Video 1 RISC-V ISA (Felipe Machado)](https://www.youtube.com/watch?v=JyvZ0i9s6xg&t=13s): RISC-V ISA 1: Introducción al conjunto de instrucciones.
-- [Video 2 RISC-V ISA (Felipe Machado)](https://www.youtube.com/watch?v=g68KrucGxq0): RISC-V ISA 2: Instrucciones tipo R (1/2).
-- [Video 3 RISC-V ISA (Felipe Machado)](https://www.youtube.com/watch?v=x7b3PgDEAvM): RISC-V ISA 3: Instrucciones tipo R (2/2).
-- [Video 4 RISC-V ISA (Felipe Machado)](https://www.youtube.com/watch?v=22iIFspcYBM): RISC-V ISA 4: Instrucciones tipo I - Operaciones con constantes.
-- [Video 5 RISC-V ISA (Felipe Machado)](https://www.youtube.com/watch?v=4_WlVK3E97g): RISC-V ISA 5: Instrucciones de carga y almacenamiento.
-- [Video 6 RISC-V ISA (Felipe Machado)](https://www.youtube.com/watch?v=Q6FRCH7PStg): RISC-V ISA 6: Instrucciones de control y programa almacenado en memoria.
-- [Video 1 RISC-V](https://www.youtube.com/watch?v=nLcPNXMj1lI): RISC-V diseño básico 1: Operaciones entre registros.
-- [Video 2 RISC-V](https://www.youtube.com/watch?v=0SzpwGoRbuU): RISC-V diseño básico 2: Operaciones con constantes.
-- [Video 3 RISC-V](https://www.youtube.com/watch?v=_cgsoTj7OqM): RISC-V diseño básico 3: Instrucción de carga desde memoria.
-- [Video 4 RISC-V](https://www.youtube.com/watch?v=A7eJFdwGdDk): RISC-V diseño básico 4: Instrucción de almacenamiento en memoria.
-- [Video 5 RISC-V](https://www.youtube.com/watch?v=5Ico3t2405A): RISC-V diseño básico 5: Memoria de programa y contador de programa.
-- [Video 6 RISC-V](https://www.youtube.com/watch?v=UzCLsPhydBY): RISC-V diseño básico 6: Instrucciones de control (branches).
-- [Video 1 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=qcBIvnQt0Bw): Introduction.
-- [Video 2 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=eSPFB-xF5iM): Three problems with Memory.
-- [Video 3 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=qlH4-oHnBb8): What is Virtual Memory?.
-- [Video 4 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=59rEMnKWoS4&t=12s): How Does Virtual Memory Work?.
-- [Video 5 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=KNUJhZCQZ9c): Page Tables.
-- [Video 6 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=ZjKS1IbiGDA): Address Translation.
-- [Video 7 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=6neHHkI0Z0o): Address Translation Example Walkthrough.
-- [Video 8 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=bShqyf-hDfg): Page Faults.
-- [Video 9 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=uDzXXnNy544): Memory Protection.
-- [Video 10 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=uyrSn3qbZ8U): Making Virtual Memory Fast.
-- [Video 11 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=95QpHJX55bM): TLB Example.
-- [Video 12 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=Z4kSOv49GNc): Multi-level Page Tables.
-- [Video 13 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=3sX5obQCHNA): TLBs and Caches.
-- [Video 14 Virtual Memory (David Black-Schaffer)](https://www.youtube.com/watch?v=FRvzCrWcFZA): Summary.
 
 # Información adicional
 ## Drive con Presentaciones, ejemplos resueltos y videos
@@ -237,20 +250,22 @@ Algunas de las aplicaciones que hacen uso de los codigos VHDL de este repositori
 - [Sistemas Digitales 2](https://drive.google.com/drive/folders/1OLkaLyrg0m6C0qMVIEzXFI1smsw7YWdG).
 
 ## Related work (FPGA applications)
-- **Paper 1:** [Performance Comparison of Database Server based on SoC FPGA and ARM Processor](https://ieeexplore.ieee.org/document/9647742)
-- **Paper 2:** [FPGA Based Meteorological Monitoring Station](https://ieeexplore.ieee.org/abstract/document/9530151)
-- **Paper 3:** [Monitoring of system memory usage embedded in FPGA](https://ieeexplore.ieee.org/abstract/document/9232863)
-- **Paper 4:** [Behavioral Signal Processing with Machine Learning Based on FPGA](https://link.springer.com/chapter/10.1007%2F978-3-030-59194-6_17)
-- **Paper 5:** [Implementation of a Classification System of EEG Signals Based on FPGA](https://ieeexplore.ieee.org/document/9096752)
+- **Paper 1:** [Electrooculography Signals Classification for FPGA-based Human-Computer Interaction](https://ieeexplore.ieee.org/document/9989664)
+- **Paper 2:** [Analysis of Sorting Algorithms Using a WSN and Environmental Pollution Data based on FPGA](https://ieeexplore.ieee.org/document/9920090)
+- **Paper 3:** [Performance Comparison of Database Server based on SoC FPGA and ARM Processor](https://ieeexplore.ieee.org/document/9647742)
+- **Paper 4:** [FPGA Based Meteorological Monitoring Station](https://ieeexplore.ieee.org/abstract/document/9530151)
+- **Paper 5:** [Monitoring of system memory usage embedded in FPGA](https://ieeexplore.ieee.org/abstract/document/9232863)
+- **Paper 6:** [Behavioral Signal Processing with Machine Learning Based on FPGA](https://link.springer.com/chapter/10.1007%2F978-3-030-59194-6_17)
+- **Paper 7:** [Implementation of a Classification System of EEG Signals Based on FPGA](https://ieeexplore.ieee.org/document/9096752)
 - http://blog.espol.edu.ec/sistemasdigitalesfiec
 
-## Repository technical specifications
+# Repository technical specifications
 - **IDE:** Quartus Prime 17.0.0 Build 595 04/25/2017 SJ Standard Edition
 - **DEVICE:** FPGA Cyclone V SE 5CSEBA6U23I7
 - **Hardware TERASIC:** DE10NANO, DE10STANDARD
 
 ## About
-- [Víctor Asanza](https://vasanza.blogspot.com/p/about-me.html)
+- [Summary](https://vasanza.blogspot.com/p/summary.html).
 
 # Keynote
 ## CLONE
